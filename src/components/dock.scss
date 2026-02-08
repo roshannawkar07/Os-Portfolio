@@ -110,3 +110,29 @@
     }
   }
 }
+
+@media (max-width: 400px) {
+  .dock {
+    gap: 0.5rem;
+    padding-inline: 0.6rem;
+    padding-block: 0.4rem;
+    border-radius: 0.5rem;
+    padding: 10px;
+
+    .icon {
+      width: 2.5rem;
+      height: 2.5rem;
+      padding: 0.4rem;
+    }
+
+    /* Reduce hover jump on mobile */
+    .icon:hover {
+      transform: scale(1.15) translateY(-10%);
+    }
+
+    .icon:hover + .icon,
+    .icon:has(+ .icon:hover) {
+      transform: scale(1.05) translateY(-5%);
+    }
+  }
+}

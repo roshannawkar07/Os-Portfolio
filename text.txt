@@ -1,0 +1,1 @@
+React-rnd package ---> for moving tabs in viewport and resizing .

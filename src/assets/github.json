@@ -1,19 +1,26 @@
 [
   {
     "id": 1,
-    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1000",
+    "image": "../public/images/project1.jpg",
     "title": "Scheds - A Course Schedule Generator",
-    "description": "My proudest project yet, a comprehensive course schedule generator application built with ASP.NET Core MVC.",
-    "tags": ["ASP.NET Core", "C#", "Entity Framework", "SQL Server", "Bootstrap", "jQuery"],
-    "repoLink": "https://github.com/microsoft/dotnet",
-    "demoLink": "https://dotnet.microsoft.com/"
+    "description": "TREDORA is a modern, full-stack e-commerce web application built using the MERN stack (MongoDB, Express, React, Node.js). The platform allows users to browse trendy clothing, manage carts, place secure orders, and track purchases providing a smooth and stylish online shopping experience.",
+    "tags": ["Node.js", "ReactJS", "MongoDB", "Express"],
+    "repoLink": "https://github.com/roshannawkar07/TREDORA-",
+    "demoLink": "https://treandoura.netlify.app/"
   },
   {
     "id": 2,
     "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
     "title": "FinTrack - Personal Finance Dashboard",
     "description": "A real-time finance tracker that visualizes spending habits using interactive charts and connects to banking APIs.",
-    "tags": ["React", "TypeScript", "Chart.js", "Node.js", "Express", "MongoDB"],
+    "tags": [
+      "React",
+      "TypeScript",
+      "Chart.js",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
     "repoLink": "https://github.com/facebook/react",
     "demoLink": "https://react.dev/"
   },

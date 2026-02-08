@@ -1,7 +1,8 @@
 /**
  * @file: profile.config.ts
- * @author: Engineering Portfolio
- * @summary: A high-performance full-stack engineer.
+ * @author: Roshan Nawkar
+ * @summary: “MERN Stack Developer | AI & Web Enthusiast | Passionate About Building Scalable
+   Web Applications & Crafting Robust Backend Solutions”.
  */
 
 // --------------------------------------------------
@@ -9,86 +10,131 @@
 // --------------------------------------------------
 
 const TECH_STACK = {
-  frontend: [
-    "React.js",    // 100%
-    "Next.js",     // 95%
-    "TailwindCSS", // 90%
-    "Three.js",    // 70%
-  ],
-  backend: [
-    "Node.js",     // 90%
-    "PostgreSQL",  // 85%
-    "Redis",       // 75%
-    "Docker",      // 80%
-  ],
-  tools: ["AWS", "Git", "Figma", "Linux"]
+frontend: [
+"React.js",     // 85%
+"Next.js",      // 75%
+"Redux",        // 80%
+"SCSS",         // 90%
+"Material UI",  // 80%
+"Tailwind CSS", // 90%
+],
+backend: [
+"Node.js",      // 90%
+"Express.js",   // 85%
+"TypeScript",   // 75%
+],
+database: [
+"MongoDB",      // 85%
+"MySQL",        // 80%
+"PostgreSQL",   // 70%
+],
+tools: [
+"Git",          // 90%
+"GitHub",       // 90%
+"Figma"         // 50%
+]
 };
 
 // --------------------------------------------------
-// 2. EXPERIENCE LOG (Reverse Chronological)
+// 2. EXPERIENCE LOG
 // --------------------------------------------------
 
 class ProfessionalHistory {
   
-  /** * CURRENT ROLE
-   * @period 2023 - Present 
+  /**
+   * INTERNSHIP
+   * @company Boost Engine
+   * @period Nov 2024 - May 2025
    */
-  public async TechFlow_Systems(): Promise<Impact> {
-    const role = "Senior Full-Stack Engineer";
-    
-    // Key Achievements
-    const optimized = await api.optimize({ strategy: "Redis Caching" });
-    const latencyReduction = "40%";
-    
-    const leadership = this.mentor(["Jr. Dev 1", "Jr. Dev 2", "Jr. Dev 3"]);
-    const architecture = "Monolith -> Microservices Migration";
-    
-    return { role, optimized, architecture, leadership };
-  }
+  public async BoostEngine(): Promise<Impact> {
+    const role = "MERN Stack Developer Intern";
 
-  /** * PREVIOUS ROLE
-   * @period 2021 - 2023
-   */
-  public PixelPerfect_Studios(): void {
-    this.role = "Frontend Developer";
-    this.focus = "High-Fidelity Animations";
-    
-    // Implemented GSAP scroll-triggers for 15+ clients
-    // Improved Lighthouse Performance Scores: 65 -> 98
+    const responsibilities = [
+      "Designed and developed scalable web applications using MERN stack",
+      "Collaborated on GitHub for version control and team management",
+      "Developed and designed company website",
+    ];
+
+    const keySkills = [
+      "UI Development",
+      "GitHub",
+      "Dynamic Website Development",
+    ];
+
+    return { role, responsibilities, keySkills };
   }
 }
 
 // --------------------------------------------------
-// 3. COMPETITIVE ACHIEVEMENTS
+// 3. PROJECTS
 // --------------------------------------------------
 
-interface HackathonWin {
-  rank: number;
-  event: string;
-  project: string;
+interface Project {
+  name: string;
+  stack: string[];
+  description: string;
 }
 
-const trophyCabinet: HackathonWin[] = [
+const projects: Project[] = [
   {
-    rank: 1,
-    event: "Global AI Hackathon 2024",
-    project: "EcoVision (Computer Vision Waste Segregation)",
-    // Prize: $5,000
+    name: "Learning Management System (LMS)",
+    stack: ["MongoDB", "Express.js", "React.js", "Node.js"],
+    description:
+      "Full‑stack LMS platform with user authentication, course management, 
+      enrollment tracking, and Redux Toolkit Query integration for efficient state 
+      and API management.",
   },
   {
-    rank: 500, // Top 500 Global
-    event: "Google Code Jam 2023",
-    project: "Algorithm Optimization (Dynamic Programming)",
-  }
+    name: "Treandoura",
+    stack: ["MongoDB", "Express.js", "React.js", "Node.js"],
+    description:
+      "Full‑stack MERN e‑commerce clothing website with responsive UI, secure authentication,
+       cart/checkout features, optimized REST APIs, and admin dashboard for product, inventory, 
+       and order management.",
+  },
+  {
+    name: "AI Resume Analyzer",
+    stack: ["React.js", "React Router", "Puter.js"],
+    description:
+      "AI‑powered resume analyzer with job listing creation, resume uploads, 
+      auto‑matching, AI‑based scoring, keyword comparison, and serverless 
+      processing using Puter.js.",
+  },
+  {
+  name: "Mac OS Portfolio",
+  stack: ["React.js", "SCSS", "Tailwind CSS"],
+  description:
+    "MacOS-inspired developer portfolio built using React with a desktop-like
+     UI, draggable windows, dock navigation, and responsive design to showcase projects, skills,
+     and experience in an interactive way.",
+}
 ];
 
 // --------------------------------------------------
-// 4. ACADEMIC BACKGROUND
+// 4. ACHIEVEMENTS
+// --------------------------------------------------
+
+interface Achievement {
+  title: string;
+  event: string;
+  rank: string;
+}
+
+const achievements: Achievement[] = [
+  {
+    title: "Web Design & Development Competition",
+    event: "iT Ignite 2023",
+    rank: "Second Prize",
+  },
+];
+
+// --------------------------------------------------
+// 5. ACADEMIC BACKGROUND
 // --------------------------------------------------
 
 const education = new Map<string, string>([
-  ["Stanford University", "MS Computer Science (3.9 GPA)"],
-  ["MIT World Peace Univ", "B.Tech Information Tech (8.8 CGPA)"]
+  ["Saraswati College Shegaon", "Bachelor of Computer Application (BCA)"],
+  ["Saraswati College Shegaon", "Mashter of Computer Application (MCA)"],
 ]);
 
 export default new ProfessionalHistory();
@@ -99,7 +145,6 @@ export default new ProfessionalHistory();
 # ---------------------------------------
 $ user --status
 > Status: Open to Opportunities
-> Location: Global / Remote
+> Location: India / Remote
 > Loading Assets... [||||||||||] 100%
 > Ready.
-```
