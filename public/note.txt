@@ -11,27 +11,27 @@
 
 const TECH_STACK = {
 frontend: [
-"React.js",     // 85%
-"Next.js",      // 75%
-"Redux",        // 80%
-"SCSS",         // 90%
-"Material UI",  // 80%
-"Tailwind CSS", // 90%
+"React.js",     
+"Next.js",      
+"Redux",        
+"SCSS",         
+"Material UI",  
+"Tailwind CSS", 
 ],
 backend: [
-"Node.js",      // 90%
-"Express.js",   // 85%
-"TypeScript",   // 75%
+"Node.js",      
+"Express.js",   
+"TypeScript",   
 ],
 database: [
-"MongoDB",      // 85%
-"MySQL",        // 80%
-"PostgreSQL",   // 70%
+"MongoDB",     
+"MySQL",        
+"PostgreSQL",  
 ],
 tools: [
-"Git",          // 90%
-"GitHub",       // 90%
-"Figma"         // 50%
+"Git",          
+"GitHub",       
+"Figma"        
 ]
 };
 
